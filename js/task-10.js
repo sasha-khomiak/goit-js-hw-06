@@ -22,7 +22,7 @@ const boxes = document.querySelector("#boxes");
 btnCreate.addEventListener("click", createBoxes);
 
 // слухач кнопки очистити і колбек-функція очистки
-btnDestroy.addEventListener("click", clearAll);
+btnDestroy.addEventListener("click", destroyBoxes);
 
 // функція створення квадратів createBoxes
 function createBoxes() {
@@ -46,7 +46,7 @@ function createBoxes() {
 }
 
 // функція очистки
-function clearAll() {
+function destroyBoxes() {
   // обнудяємо поле інпут
   inputValue.value = "";
 
