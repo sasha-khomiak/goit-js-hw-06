@@ -22,14 +22,3 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
-
-/* Завдання 3 галереї */
-
-.gallery {
-  display: flex;
-  list-style: none;
-}
-
-.image-item {
-  margin-right: 20px;
-}
