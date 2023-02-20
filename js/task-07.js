@@ -12,4 +12,4 @@ function changeText() {
 }
 
 // чіпляємо слухача на зміну і колбек функцію обробки значення
-controller.addEventListener("change", changeText);
+controller.addEventListener("input", changeText);

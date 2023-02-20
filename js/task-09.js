@@ -18,11 +18,11 @@ buttonColor.addEventListener("click", colorize);
 // функція обробки натиску кнопки
 function colorize() {
   // генеруємо колір
-  const x = getRandomHexColor();
+  const randomColor = getRandomHexColor();
 
   // записуємо його в тексове поле для виводу
-  textColor.textContent = x;
+  textColor.textContent = randomColor;
 
   // присвоюємо боді цей колір
-  body.style.backgroundColor = `${x}`;
+  body.style.backgroundColor = `${randomColor}`;
 }
